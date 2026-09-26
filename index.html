@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Arcade — Aventura em Equipe</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <h1>Super Arcade — Aventura em Equipe</h1>
+        <p>Cooperação para 2 a 4 jogadores</p>
+      </header>
+      <main class="game-area">
+        <canvas id="game-canvas" width="960" height="540" aria-label="Tela do jogo"></canvas>
+        <section id="app-ui" class="ui-panel" aria-live="polite"></section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
